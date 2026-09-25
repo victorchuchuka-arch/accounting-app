@@ -6,13 +6,15 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "typecheck": "react-router typegen && tsc",
+    "deploy": "pnpm run deploy && wrangler deploy"
   },
   "dependencies": {
     "@react-router/cloudflare": "^8.4.0",
     "@react-router/node": "^8.4.0",
     "@react-router/serve": "7.18.4",
     "clsx": "^2.1.1",
+    "deploy": "^1.1.0",
     "drizzle-orm": "^0.45.3",
     "isbot": "^5.1.36",
     "lucide-react": "^1.47.0",
