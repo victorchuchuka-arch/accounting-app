@@ -1,0 +1,7 @@
+allowBuilds:
+  esbuild: false
+  workerd: false
+minimumReleaseAgeExclude:
+  - '@cloudflare/workers-types@5.20260921.1'
+  - drizzle-kit@0.31.11
+  - drizzle-orm@0.45.3
